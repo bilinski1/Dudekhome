@@ -1,7 +1,7 @@
 import * as React from "react"
 import HeroSection from "../components/HeroSection/HeroSection"
 import Layout from "../components/layout"
-import AboutUs from "../components/Main/aboutUs"
+import AboutUs from "../components/Main/AboutUs"
 import Carousel from "../components/Carousel/Carousel"
 import "../styles/global.scss"
 import { Button } from '../components/HeroSection/Button'
