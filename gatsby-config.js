@@ -4,21 +4,31 @@ module.exports = {
     title: "Dudekhome",
   },
   plugins: [
+    /*
     {
       resolve: "gatsby-source-wordpress",
       options: {
-        url: "",
+        url: "www.wp.pl",
       },
     },
+    */
     "gatsby-plugin-sass",
     "gatsby-plugin-gatsby-cloud",
     "gatsby-plugin-image",
+    {
+      resolve: `gatsby-plugin-styled-components`,
+      options: {
+        // Add any options here
+      },
+    },
+    /*
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
         trackingId: "",
       },
     },
+    */
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
     {
