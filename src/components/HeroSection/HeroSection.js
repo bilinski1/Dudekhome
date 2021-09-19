@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button } from './Button'
-import "./heroSection.scss"
+import "./HeroSection.scss"
 
 
 const HeroSection = () => {
