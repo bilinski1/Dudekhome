@@ -12,19 +12,8 @@ const InfoSection = () => {
         </div>
         <div className="wrapper-home-second spacing">
             <h1>JESTEŚMY EKSPERTAMI NA RYNKU NIERUCHOMOŚCI</h1>
-          Od wielu lat pomagamy Polakom spełnić marzenia o zarabianiuna
-          nieruchomościach. Nasz zespół tworzą specjaliści z wieloletnim
-          doświadczeniem w branży hotelarskiej i finansowej. Zdobytą wiedzę
-          wykorzystujemy, by efektywnie pomagać inwestorom w znalezieniu
-          idealnego lokalu pod wynajem. Dysponujemy bazą apartamentów
-          inwestycyjnych w rekreacyjnych kurortach nad morzem, w górach, nad
-          jeziorem oraz w mieście. Wybieramy inwestycje na najwyższym poziomie,
-          z wszelkimi udogodnieniami i wykończeniem na wysokim standardzie.
-          Oferowane hotele i lokale inwestycyjne zlokalizowane są w
-          najciekawszych obszarach rekreacyjnych w takich miastach jak:
-          Kołobrzeg, Łeba, Krynica Zdrój, Karpacz, Zakopane czy Bukowina. Jeśli
-          interesuje Cię inwestowanie w pokoje hotelowe – sprawdź co możemy Ci
-          zaoferować.
+            Branża deweloperska jest jedną z najbardziej rozwijających się części gospodarki. 
+Inwestycje mają wiele ważnych społecznie ról. Od tworzenia miejsc zamieszkania przez miejsca wypoczynkowe po popularny i uważany za bezpieczny środek tezauryzacji majątku. Uważamy, że kazda inwestycja powinna mieć schludny i godny wizerunek. Naszym celem jest współtworzenie projektów deweloperskich mających szeroki impakt w swoim otoczeniu. 
         </div>
       </div>
       <div className="wrapper">
