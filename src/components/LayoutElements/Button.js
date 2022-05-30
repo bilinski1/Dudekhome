@@ -5,8 +5,8 @@ border-radius: 4px;
 background: ${({primary}) => (primary ? "#0467FB" : "#ffffff")};
 padding: ${({ big }) => (big ? "16px 64px" : "10px 20px")};
 color: ${({ white }) => (white ? "#fff" : "#000000")};
-outline: none;
-border: none;
+outline: 1px;
+border: 1px;
 cursor: pointer;
 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 

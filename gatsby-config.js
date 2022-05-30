@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://www.dudekhome.com",
     title: "Dudekhome",
   },
   plugins: [
@@ -12,9 +12,13 @@ module.exports = {
       },
     },
     */
+    "gatsby-plugin-modal-routing",
     "gatsby-plugin-sass",
     "gatsby-plugin-gatsby-cloud",
     "gatsby-plugin-image",
+    "gatsby-plugin-react-helmet",
+    "gatsby-plugin-sitemap",
+    `gatsby-plugin-transition-link`,
     {
       resolve: `gatsby-plugin-styled-components`,
       options: {
@@ -29,8 +33,6 @@ module.exports = {
       },
     },
     */
-    "gatsby-plugin-react-helmet",
-    "gatsby-plugin-sitemap",
     {
       resolve: "gatsby-plugin-manifest",
       options: {
@@ -47,5 +49,15 @@ module.exports = {
       },
       __key: "images",
     },
-  ],
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Raleway`,
+          `Raleway\:300,400,400i,700`,
+        ],
+        display: 'swap'
+      }
+    }
+  ]
 };

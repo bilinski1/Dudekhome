@@ -1,0 +1,41 @@
+.onas-container {
+  background: url('../images/Papawery.jpg') center center/cover no-repeat;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0, 0.2);
+  object-fit: contain;
+  margin-top: -80px;
+
+}
+
+.section-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  padding-left: 1rem;
+}
+
+div.vertical-line{
+  border-left: thin solid #000000;
+}
+
+@media (max-width: 768px){
+  .section {
+    width: 100%;
+  }
+}
+

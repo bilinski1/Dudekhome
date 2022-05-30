@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaFacebook, FaInstagram } from "react-icons/fa" ;
-import { FooterContainer, SocialIconLink, SocialLogo, SocialMedia, SocialMediaWrap, WebsiteRights, SocialIcons, Logo } from './FooterStyles';
-import logo from '../../images/logo4min.png'
+import { FooterContainer, SocialIconLink, SocialLogo, SocialMedia, SocialMediaWrap, WebsiteRights, SocialIcons, Logo, FooterDetails } from './FooterStyles';
+import logo from '../../images/Dudekhome-footer.png'
 
 const Footer = () => {
     return (
@@ -12,7 +12,8 @@ const Footer = () => {
                     <SocialLogo to="/">
                     <Logo src={logo} alt="Logo" to="/"/>
                     </SocialLogo>
-                    <WebsiteRights>Bdesign {new Date().getFullYear()}</WebsiteRights>
+                    <FooterDetails>DUDEKHOME.COM <br/>office@dudekhome.com
+                    </FooterDetails>
                     <SocialIcons>
                         <SocialIconLink href="/" target="_blank" aria-label="Facebook">
                             <FaFacebook />
@@ -22,7 +23,9 @@ const Footer = () => {
                         </SocialIconLink>
                     </SocialIcons>
                 </SocialMediaWrap>
+                <div>B-DESIGN {new Date().getFullYear()}</div>
             </SocialMedia>
+
         </FooterContainer>
 
     )

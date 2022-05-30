@@ -4,9 +4,12 @@ import Layout from "../components/layout"
 import AboutUs from "../components/Main/AboutUs"
 import Carousel from "../components/Carousel/Carousel"
 import "../styles/global.scss"
-import { Button } from '../components/HeroSection/Button'
+import { Button } from '../components/LayoutElements/Button'
 import InfoSection from "../components/Main/InfoSection"
+import Partners from "../components/Partners/partners"
 import Map from "../components/Map/Map"
+import { Link } from "gatsby"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 
 const IndexPage = () => {
@@ -14,13 +17,16 @@ const IndexPage = () => {
     <Layout>
     <HeroSection />
     <main>
-    <title>Home Page</title>
+    <title>DUDEKHOME.PL</title>
     <AboutUs />
     <Carousel />
     <div className="wrapper">
-    <Button white primary>Lista Inwestycji</Button>
+      <AniLink paintDrip color="white" to="/Projekt">
+        <Button>Lista Inwestycji</Button>
+      </AniLink>
     </div>
-    <InfoSection/>
+      <InfoSection/>
+      <Partners/>
     </main>
     <Map />
     </Layout>

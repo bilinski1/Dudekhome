@@ -11,7 +11,19 @@ export const Logo = styled.img`
     @media screen and (max-width: 600px) {
         margin-top: auto;
         height: auto;
-        width: 50%;
+        width: 80%;
+  }
+`;
+
+export const Logo2 = styled.img`
+    width: auto;
+    margin-top: auto;
+    background: #fff;
+
+    @media screen and (max-width: 600px) {
+        margin-top: auto;
+        height: auto;
+        width: 80%;
   }
 `;
 
@@ -20,8 +32,6 @@ export const Nav = styled.nav`
     active
       ? "#fff"
       : "linear-gradient(to bottom, rgba(255,255,255,0.8) 80%, rgba(255,255,255,0.8) 90% )"};
-
-  height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,6 +43,10 @@ export const Nav = styled.nav`
   @media screen and (max-width: 960px) {
     background: ${({ click }) => (click ? "#fff" : "transparent")};
     transition: 0.8s all ease;
+  }
+
+  @media screen and (min-width: 500px) {
+    height: 80px;
   }
 `;
 

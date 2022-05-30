@@ -13,10 +13,41 @@
 
 .hero-container > h1 {
     color: #fff;
-    font-size: 80px;
     margin-top: 0px;
     margin: 5rem;
-}
+    font-family: sans-serif;
+    text-align: center;
+
+    @media screen and (min-width: 10px) {
+            font-size: 40px;
+        }
+    @media screen and (max-width: 375px) {
+        font-size: 40px;
+    }
+
+    @media screen and (min-width: 376px) {
+        font-size: 60px;
+    }
+    @media screen and (max-width: 576px) {
+        font-size: 60px;
+    }
+
+    @media screen and (min-width: 769px) {
+        font-size: 70px;
+    }
+    @media screen and (max-width: 992px) {
+        font-size: 70px;
+    }
+
+    @media screen and (min-width: 993px) {
+        font-size: 80px;
+    }
+    }
+
+
+
+
+
 
 .hero-container > p {
     margin-top: 8px;

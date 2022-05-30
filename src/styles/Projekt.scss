@@ -1,0 +1,104 @@
+.projekty-container {
+  background: url('../images/Papawery.jpg') center center/cover no-repeat;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0, 0.2);
+  object-fit: contain;
+  margin-top: -80px;
+}
+
+.item-container {
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  margin: 3em;
+}
+
+
+@media (max-width: 768px){
+  .item-container {
+    height: auto;
+    flex-wrap: wrap;
+    margin: 2rem;
+  }
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+img {
+  width: auto;
+  height: 100%;
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #efefef;
+}
+
+.box {
+  position: relative;
+  width: 500px;
+  height: 100%;
+  background: #fff;
+  border-radius: 2px;
+}
+
+.box::before,
+.box::after {
+  content: '';
+  position: absolute;
+  bottom: 10px;
+  width: 40%;
+  height: 10px;
+  box-shadow: 0 5px 14px rgba(0,0,0,.7);
+  z-index: -1;
+  transition: all .3s ease-in-out;
+}
+
+.box::before {
+  left: 15px;
+  transform: skew(-5deg) rotate(-5deg);
+}
+
+.box::after {
+  right: 15px;
+  transform: skew(5deg) rotate(5deg);
+}
+
+.box:hover::before,
+.box:hover::after {
+  box-shadow: 0 2px 14px rgba(0,0,0,.4);
+}
+
+.box:hover::before {
+  left: 5px;
+}
+
+.box:hover::after {
+  right: 5px;
+}
+
+.description {
+  font-family: "raleway" !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+.heading {
+
+}

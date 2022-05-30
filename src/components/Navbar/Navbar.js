@@ -42,13 +42,13 @@ useEffect(() => {
                                 <NavLinks to="/">HOME</NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to="/aboutus">O NAS</NavLinks>
+                                <NavLinks to="/Onas">O NAS</NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to="/projects">PROJEKT</NavLinks>
+                                <NavLinks to="/Projekt">PROJEKT</NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to="/kontakt">KONTAKT</NavLinks>
+                                <NavLinks to="/ContactUs">KONTAKT</NavLinks>
                             </NavItem>
                         </NavMenu>
                     </NavbarContainer>
