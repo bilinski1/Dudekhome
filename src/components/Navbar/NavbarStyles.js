@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 
 
 export const Logo = styled.img`
-    width: auto;
+    width: 150px;
     height: auto;
     margin-top: auto;
     background: #fff;
@@ -11,7 +11,7 @@ export const Logo = styled.img`
     @media screen and (max-width: 600px) {
         margin-top: auto;
         height: auto;
-        width: 80%;
+        width: 30%;
   }
 `;
 
@@ -23,7 +23,7 @@ export const Logo2 = styled.img`
     @media screen and (max-width: 600px) {
         margin-top: auto;
         height: auto;
-        width: 80%;
+        width: 60%;
   }
 `;
 

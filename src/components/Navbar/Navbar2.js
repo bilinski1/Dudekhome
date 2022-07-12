@@ -3,6 +3,7 @@ import {FaBars, FaTimes} from 'react-icons/fa'
 import {IconContext} from 'react-icons/lib'
 import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavLinks, NavItem, Logo, Logo2} from './NavbarStyles'
 import logo from '../../images/x.jpg'
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 
 const Navbar2 = () => {
@@ -31,9 +32,11 @@ useEffect(() => {
             <IconContext.Provider value={{ color: "#fff"}}>
                 <Nav active={scroll} click={click}>
                     <NavbarContainer>
-                        <NavLogo to="/Projekt">
-                            <Logo2 src={logo} alt="Logo" to="/"/>
+                        <AniLink paintDrip color="white" to="/">
+                        <NavLogo>
+                            <Logo2 src={logo} alt="Logo"/>
                         </NavLogo>
+                        </AniLink>
                         <MobileIcon onClick={handleClick}>
                             {click ? <FaTimes color="black" /> : <FaBars/>}
                         </MobileIcon>
@@ -45,7 +48,7 @@ useEffect(() => {
                                 <NavLinks to="/Onas">O NAS</NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to="/Projekt">PROJEKT</NavLinks>
+                                <NavLinks to="/ProjectsPage">REALIZACJE</NavLinks>
                             </NavItem>
                             <NavItem>
                                 <NavLinks to="/ContactUs">KONTAKT</NavLinks>

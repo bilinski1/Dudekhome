@@ -20,7 +20,7 @@ const settings = {
     autoplaySpeed: 5000,
 };
 
-const Carousel = () => {
+const Carousel = (props) => {
     return (
         <div className="carousel-wrapper">
             <Slider {...settings} className="">

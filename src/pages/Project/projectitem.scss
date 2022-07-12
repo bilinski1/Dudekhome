@@ -1,3 +1,42 @@
 .Button {
   padding: 2rem;
 }
+
+.collapsible .content {
+  padding: 6px;
+  background-color: white;
+  padding-left: 2em;
+  padding-right: 2em;
+  margin-right: 2em;
+  margin-left: 2em;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgray;
+}
+.collapsible .header {
+  background-color: #ffffff;
+  padding: 6px;
+  cursor: pointer;
+justify-content: flex-end;
+  display: flex;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+  margin: 10px;
+  padding: 10px;
+}
+
+img {
+  height: 100%;
+}

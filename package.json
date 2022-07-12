@@ -15,17 +15,23 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
     "@fontsource/open-sans": "^4.5.8",
     "@fontsource/raleway": "^4.5.5",
+    "@fontsource/roboto": "^4.5.7",
+    "@material-ui/core": "^4.12.4",
+    "@mui/material": "^5.8.6",
+    "@react-icons/all-files": "^4.1.0",
     "babel-plugin-styled-components": "^1.13.2",
     "gatsby": "^4.0.0",
-    "gatsby-plugin-fontawesome-css": "^1.2.0",
     "gatsby-plugin-gatsby-cloud": "^4.15.0",
     "gatsby-plugin-google-analytics": "^2.11.0",
     "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-image": "^0.7.2",
     "gatsby-plugin-manifest": "^2.6.1",
     "gatsby-plugin-modal-routing": "^1.2.0",
+    "gatsby-plugin-prettier-eslint": "^1.0.6",
     "gatsby-plugin-react-helmet": "^3.10.0",
     "gatsby-plugin-sass": "^3.2.0",
     "gatsby-plugin-sharp": "^2.14.4",
@@ -40,12 +46,28 @@
     "link": "^1.5.0",
     "prop-types": "^15.8.1",
     "react": "^17.0.2",
+    "react-collapsed": "^3.3.2",
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
-    "react-icons": "^4.2.0",
+    "react-icons": "^4.4.0",
+    "react-image-gallery": "^1.2.8",
+    "react-modal-image": "^2.5.0",
+    "react-modal-image-responsive": "^1.1.1",
+    "react-router-dom": "^6.3.0",
     "react-slick": "^0.28.1",
     "sass": "^1.37.5",
     "slick-carousel": "^1.8.1",
     "styled-components": "^5.3.0"
+  },
+  "resolutions": {
+    "gatsby-plugin-sharp/probe-image-size": "^7.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.3",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.30.0"
   }
 }

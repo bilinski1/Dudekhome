@@ -55,6 +55,7 @@ module.exports = {
         fonts: [
           `Raleway`,
           `Raleway\:300,400,400i,700`,
+          'Lobster',
         ],
         display: 'swap'
       }

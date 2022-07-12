@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 import {FaBars, FaTimes} from 'react-icons/fa'
 import {IconContext} from 'react-icons/lib'
 import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavLinks, NavItem, Logo} from './NavbarStyles'
-import logo from '../../images/logo4min.png'
+import logo from '../../images/dudeklogooriginal.png'
 
 
 const Navbar = () => {
@@ -16,7 +16,7 @@ const changeNav = () => {
         setScroll(true)
     } else {
         setScroll(false)
-    }
+    }git
     
 }
 
@@ -45,7 +45,7 @@ useEffect(() => {
                                 <NavLinks to="/Onas">O NAS</NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to="/Projekt">PROJEKT</NavLinks>
+                                <NavLinks to="/ProjectsPage">REALIZACJE</NavLinks>
                             </NavItem>
                             <NavItem>
                                 <NavLinks to="/ContactUs">KONTAKT</NavLinks>

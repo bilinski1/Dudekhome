@@ -4,6 +4,7 @@
   flex-direction: column;
   justify-content: center;
   margin: 2rem;
+
 }
 
 .partners-section {
@@ -11,4 +12,28 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  padding: 40px;
+
+  img {
+    border-style: solid;
+    border-width: 1px;
+    height: auto;
+    margin: 20px;
+    width: 60%;
+  }
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+  :active {
+    color: #000000;
+    text-decoration: none;
+  }
+  :hover {
+    color: #000000;
+    text-decoration: none;
+  }
 }
