@@ -50,7 +50,7 @@ const Projekt = () => {
             <ProjectItem title={"Poręba Spytkowska"} no={1} url={"/Projectdetails1"}
                          heading={"Dom jednorodzinny z poddaszem użytkowym"}
                          description={"5 pokoi, 1 kuchnia, 3 łazienki, spiżarka, kotłownia, garderoby, garaż"}
-                         fieldarea={"34"} housearea={"128,04"} fieldno={"3285/6"} garagearea={"22,47"}
+                         fieldarea={"10,1 a"} housearea={"128,04"} fieldno={"2234/15"} garagearea={"22,47"}
                          image={projecticon1}
                          imageurl3={papawerybicon1}
                          imageurl4={papawerybicon2}
@@ -60,7 +60,7 @@ const Projekt = () => {
             <ProjectItem title={"Mokrzyska 1"} no={2} url={"/Projectdetails2"}
                          heading={"Dom jednorodzinny z poddaszem użytkowym"}
                          description={"4 pokoje, 1 kuchnia, 2 łazienki, kotłownia, garderoby, garaż"}
-                         fieldarea={"8,6"} housearea={"110,57"} fieldno={"3285/6"} garagearea={"18,93"}
+                         fieldarea={"8,6 a"} housearea={"110,57"} fieldno={"3285/6"} garagearea={"18,93"}
                          image={projecticon2}
                          imageurl3={papaweryaicon3}
                          imageurl4={papaweryaicon4}
@@ -69,7 +69,7 @@ const Projekt = () => {
             <ProjectItem title={"Mokrzyska 2"} no={3} url={"/Projectdetails3"}
                          heading={"Dom jednorodzinny z poddaszem użytkowym"}
                          description={"4 pokoje, 1 kuchnia, 2 łazienki, kotłownia, garderoby, garaż"}
-                         fieldarea={"8,6"} housearea={"110,57"} fieldno={"3285/6"} garagearea={"18,93"}
+                         fieldarea={"8,6 a"} housearea={"110,57"} fieldno={"3285/6"} garagearea={"18,93"}
                          image={projecticon2}
                          imageurl3={papaweryaicon3}
                          imageurl4={papaweryaicon4}
