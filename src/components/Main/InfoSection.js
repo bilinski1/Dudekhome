@@ -22,10 +22,6 @@ const InfoSection = () => {
             <div className="wrapper">
                 <div className="wrapper-home-first seconditem spacing">
                     <h2>CO NAS WYRÓŻNIA</h2>
-                    <p>Nasza działalność jako dewelopera budowlanego w zakresie inwestycji mieszkaniowych obejmuje: zakupy
-                    gruntów, projektowanie budynków w oparciu o własne biuro projektowe, realizację inwestycji
-                        budowlanych, sprzedaż lub wynajem budynków, administrację i zarządzanie nieruchomościami.</p>
-<br />
                     <p>To, co cechuje nasze działania, to terminowe realizowanie inwestycji, stała i doświadczona kadra
                     pracowników, zarówno biurowo-administracyjnych, jak i budowlanych, współpraca z najlepszymi biurami
                     architektonicznymi oraz własny dział sprzedaży i obsługi klienta.</p>

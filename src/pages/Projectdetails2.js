@@ -43,8 +43,8 @@ const Details = (props) => {
     ];
 
     const generalinfo = {
-        area: 'Powierzchnia: 128,04 m2',
-        tel: '3235434535'
+        area: 'Powierzchnia: 110,57 m2',
+        tel: '+48665617404'
 
     };
 
@@ -89,15 +89,15 @@ const Details = (props) => {
     };
     return (
         <Layout>
-            <div className="container"><h1>Mokrzyska #1</h1></div>
+            <div className="container"><h1>Mokrzyska 1</h1></div>
             <div className="project-details-container">
                 <ImageGallery items={images} />
                 <div className="project-details-heading"><h2>Dom w Mokrzyskach</h2></div>
                 <div className="collapseheaderitem">
                     <div className="colitems">
                         <CollapsibleItem title="Informacje Ogólne" technologia='' cost=""
-                                         area={<>{generalinfo.area} <br/> {}
-                                             <br/> {} <br/>Tel.: {generalinfo.tel}</>}/>
+                                         area={<><li>{generalinfo.area} </li><br/> {}
+                                             <li>Tel.: {generalinfo.tel}</li></>}/>
                         <CollapsibleItem title="Metraż Parter"
                                          metraz={<><li>{parter.hol}</li>
                                              <br/><li>{parter.pokoj}</li>

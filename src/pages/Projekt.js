@@ -60,7 +60,7 @@ const Projekt = () => {
             <ProjectItem title={"Mokrzyska 1"} no={2} url={"/Projectdetails2"}
                          heading={"Dom jednorodzinny z poddaszem użytkowym"}
                          description={"4 pokoje, 1 kuchnia, 2 łazienki, kotłownia, garderoby, garaż"}
-                         fieldarea={"34"} housearea={"110,57"} fieldno={"3285/6"} garagearea={"18,93"}
+                         fieldarea={"8,6"} housearea={"110,57"} fieldno={"3285/6"} garagearea={"18,93"}
                          image={projecticon2}
                          imageurl3={papaweryaicon3}
                          imageurl4={papaweryaicon4}
@@ -69,16 +69,30 @@ const Projekt = () => {
             <ProjectItem title={"Mokrzyska 2"} no={3} url={"/Projectdetails3"}
                          heading={"Dom jednorodzinny z poddaszem użytkowym"}
                          description={"4 pokoje, 1 kuchnia, 2 łazienki, kotłownia, garderoby, garaż"}
-                         fieldarea={"34"} housearea={"110,57"} fieldno={"3285/6"} garagearea={"18,93"}
+                         fieldarea={"8,6"} housearea={"110,57"} fieldno={"3285/6"} garagearea={"18,93"}
                          image={projecticon2}
                          imageurl3={papaweryaicon3}
                          imageurl4={papaweryaicon4}
                          imageurl5={papaweryaicon5}
                          imageurl6={papaweryaicon6}/>
-            <ProjectItem no={4} url={"/domwmalinowkach"}
+            <ProjectItem no={4} url={"/ProjectsPage"}
                          heading={["Dom jednorodzinny z poddaszem użytkowym", <br/>, <br/>, "WKRÓTCE DOSTĘPNY"]}
                          description={"4 pokoje, 1 kuchnia, 2 łazienki, kotłownia, garderoby, garaż"}
-                         fieldarea={"34"} housearea={"110,57"} fieldno={"3285/6"} garagearea={"18,93"}
+                         fieldarea={"-"} housearea={"-"} fieldno={"-"} garagearea={"-"}
+                         image={domwmalinowkach}
+                         desc={<div className='description'>'Ten piękny, tradycyjny dom jednorodzinny powstał z myślą o tym, by spełniać marzenia – zapewnić maksimum komfortowej przestrzeni do życia dla wszystkich, z jednoczesnym zachowaniem przytulności, prywatności i poczucia ciepła każdemu z osobna. Funkcjonalne wnętrze zapewni wygodę i da możliwość zaaranżowania domu zgodnie z własnym, indywidualnym rytmem życia każdej rodziny. Znajdzie się więc miejsce na relaks, pracę i rozrywkę, a co najważniejsze – na rodzinne szczęście. '</div>}
+            />
+            <ProjectItem no={5} url={"/ProjectsPage"}
+                         heading={["Dom jednorodzinny z poddaszem użytkowym", <br/>, <br/>, "WKRÓTCE DOSTĘPNY"]}
+                         description={"4 pokoje, 1 kuchnia, 2 łazienki, kotłownia, garderoby, garaż"}
+                         fieldarea={"-"} housearea={"-"} fieldno={"-"} garagearea={"-"}
+                         image={domwmalinowkach}
+                         desc={<div className='description'>'Ten piękny, tradycyjny dom jednorodzinny powstał z myślą o tym, by spełniać marzenia – zapewnić maksimum komfortowej przestrzeni do życia dla wszystkich, z jednoczesnym zachowaniem przytulności, prywatności i poczucia ciepła każdemu z osobna. Funkcjonalne wnętrze zapewni wygodę i da możliwość zaaranżowania domu zgodnie z własnym, indywidualnym rytmem życia każdej rodziny. Znajdzie się więc miejsce na relaks, pracę i rozrywkę, a co najważniejsze – na rodzinne szczęście. '</div>}
+            />
+            <ProjectItem no={6} url={"/ProjectsPage"}
+                         heading={["Dom jednorodzinny z poddaszem użytkowym", <br/>, <br/>, "WKRÓTCE DOSTĘPNY"]}
+                         description={"4 pokoje, 1 kuchnia, 2 łazienki, kotłownia, garderoby, garaż"}
+                         fieldarea={"-"} housearea={"-"} fieldno={"-"} garagearea={"-"}
                          image={domwmalinowkach}
                          desc={<div className='description'>'Ten piękny, tradycyjny dom jednorodzinny powstał z myślą o tym, by spełniać marzenia – zapewnić maksimum komfortowej przestrzeni do życia dla wszystkich, z jednoczesnym zachowaniem przytulności, prywatności i poczucia ciepła każdemu z osobna. Funkcjonalne wnętrze zapewni wygodę i da możliwość zaaranżowania domu zgodnie z własnym, indywidualnym rytmem życia każdej rodziny. Znajdzie się więc miejsce na relaks, pracę i rozrywkę, a co najważniejsze – na rodzinne szczęście. '</div>}
             />

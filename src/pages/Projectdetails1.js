@@ -50,8 +50,8 @@ const Details = (props) => {
     ];
 
     const generalinfo = {
-        area: 'Powierzchnia: 128,04 m2',
-        tel: '3235434535'
+        area: 'Powierzchnia: 110,57 m2',
+        tel: '+48665617404'
 
     };
 
@@ -98,8 +98,8 @@ const Details = (props) => {
                 <div className="collapseheaderitem">
                     <div className="colitems">
                         <CollapsibleItem title="Informacje Ogólne" technologia='' cost=""
-                                         area={<>{generalinfo.area} <br/> {}
-                                             <br/> {} <br/>Tel.: {generalinfo.tel}</>}/>
+                                         area={<><li>{generalinfo.area} </li><br/> {}
+                                             <li>Tel.: {generalinfo.tel}</li></>}/>
                         <CollapsibleItem title="Metraż Parter"
                                          metraz={<><li>{parter.hol}</li>
                                              <br/><li>{parter.pokoj}</li>

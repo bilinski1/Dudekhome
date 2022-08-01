@@ -67,6 +67,7 @@ export const NavLogo = styled(Link)`
   font-size: 1.5rem;
   display: flex;
   align-items: center;
+  height: fit-content;
 `;
 
 
