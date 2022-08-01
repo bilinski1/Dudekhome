@@ -18,7 +18,7 @@ import papaweryaicon6 from "../images/Realizacja_Mokrzyska/Icons/rysunek6.jpg";
 import papawerybicon1
     from "../images/Realizacja_Poreba/icons/projekt-dom-w-papawerach-2-a-4d68b6bc69b85f7d9afe16243b681455__11264.jpg"
 import papawerybicon2
-    from "../images/Realizacja_Poreba/icons/projekt-dom-w-papawerach-2-a-6ab7aead269c673b0c22aec372d1b199__11267.jpg"
+    from "../images/Realizacja_Poreba/icons/papawery2-elewacja ogrodowa.jpg"
 import papawerybicon3
     from "../images/Realizacja_Poreba/icons/projekt-dom-w-papawerach-2-a-851ce392705ddab0dea0c897f9e58ce7__11265.jpg"
 import papawerybicon4
@@ -47,8 +47,9 @@ const Projekt = () => {
     }
     return (
         <React.Fragment>
-            <ProjectItem title={"Poręba Spytkowska"} no={1} url={"/Projectdetails1"} heading={"Dom jednorodzinny z poddaszem użytkowym"}
-                         description={"5 pokoi, 1 kuchnia, 3 łazienki, spiżarka, kotłownia, garderoby, kominek, garaż"}
+            <ProjectItem title={"Poręba Spytkowska"} no={1} url={"/Projectdetails1"}
+                         heading={"Dom jednorodzinny z poddaszem użytkowym"}
+                         description={"5 pokoi, 1 kuchnia, 3 łazienki, spiżarka, kotłownia, garderoby, garaż"}
                          fieldarea={"34"} housearea={"128,04"} fieldno={"3285/6"} garagearea={"22,47"}
                          image={projecticon1}
                          imageurl3={papawerybicon1}
@@ -56,16 +57,18 @@ const Projekt = () => {
                          imageurl5={papawerybicon3}
                          imageurl6={papawerybicon4}
             />
-            <ProjectItem title={"Mokrzyska #1"} no={2} url={"/Projectdetails2"} heading={"Dom jednorodzinny z poddaszem użytkowym"}
-                         description={"4 pokoje, 1 kuchnia, 2 łazienki, kotłownia, garderoby, kominek, garaż"}
+            <ProjectItem title={"Mokrzyska 1"} no={2} url={"/Projectdetails2"}
+                         heading={"Dom jednorodzinny z poddaszem użytkowym"}
+                         description={"4 pokoje, 1 kuchnia, 2 łazienki, kotłownia, garderoby, garaż"}
                          fieldarea={"34"} housearea={"110,57"} fieldno={"3285/6"} garagearea={"18,93"}
                          image={projecticon2}
                          imageurl3={papaweryaicon3}
                          imageurl4={papaweryaicon4}
                          imageurl5={papaweryaicon5}
                          imageurl6={papaweryaicon6}/>
-            <ProjectItem title={"Mokrzyska #2"} no={3} url={"/Projectdetails3"} heading={"Dom jednorodzinny z poddaszem użytkowym"}
-                         description={"4 pokoje, 1 kuchnia, 2 łazienki, kotłownia, garderoby, kominek, garaż"}
+            <ProjectItem title={"Mokrzyska 2"} no={3} url={"/Projectdetails3"}
+                         heading={"Dom jednorodzinny z poddaszem użytkowym"}
+                         description={"4 pokoje, 1 kuchnia, 2 łazienki, kotłownia, garderoby, garaż"}
                          fieldarea={"34"} housearea={"110,57"} fieldno={"3285/6"} garagearea={"18,93"}
                          image={projecticon2}
                          imageurl3={papaweryaicon3}
@@ -74,12 +77,14 @@ const Projekt = () => {
                          imageurl6={papaweryaicon6}/>
             <ProjectItem no={4} url={"/domwmalinowkach"}
                          heading={["Dom jednorodzinny z poddaszem użytkowym", <br/>, <br/>, "WKRÓTCE DOSTĘPNY"]}
-                         description={"4 pokoje, 1 kuchnia, 2 łazienki, kotłownia, garderoby, kominek, garaż"}
+                         description={"4 pokoje, 1 kuchnia, 2 łazienki, kotłownia, garderoby, garaż"}
                          fieldarea={"34"} housearea={"110,57"} fieldno={"3285/6"} garagearea={"18,93"}
-                         image={domwmalinowkach}/>
+                         image={domwmalinowkach}
+                         desc={<div className='description'>'Ten piękny, tradycyjny dom jednorodzinny powstał z myślą o tym, by spełniać marzenia – zapewnić maksimum komfortowej przestrzeni do życia dla wszystkich, z jednoczesnym zachowaniem przytulności, prywatności i poczucia ciepła każdemu z osobna. Funkcjonalne wnętrze zapewni wygodę i da możliwość zaaranżowania domu zgodnie z własnym, indywidualnym rytmem życia każdej rodziny. Znajdzie się więc miejsce na relaks, pracę i rozrywkę, a co najważniejsze – na rodzinne szczęście. '</div>}
+            />
 
             <div className="item-container">
-                <div className="box description">
+                <div className="box2 description">
                     <AniLink paintDrip color="white" to="/Projekt">
                         <div className="Button">
                             <Button>Więcej Informacji</Button>

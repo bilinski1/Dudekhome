@@ -43,13 +43,43 @@ const Details = (props) => {
     ];
 
     const generalinfo = {
-        area: '5m',
+        area: 'Powierzchnia: 128,04 m2',
         tel: '3235434535'
+
     };
 
-    const m = {
-        kuchnia: 'Kuchnia: 10 m2',
-        garaz: 'Garaż 7m2',
+    const parter = {
+        hol: 'Hol: 4,37m2',
+        pokoj: 'Pokój: 11,51m2',
+        wiatrolap: 'Poddasze: 53,20 m2',
+        spizarnia: 'Spiżarnia: 4,35m2',
+        salon: 'Salon 30,95m2',
+        kuchnia: 'Kucnia 7,94m2',
+        lazienka: 'Łazienka 2,93m2',
+        kotlownia: 'Kotłownia: 4,23m2',
+        garaz: 'Garaż: 22,47m2'
+
+    };
+
+    const poddasze = {
+        poddaszeschody: 'Hol i Schody: 10,58m2',
+        poddaszepokoj: 'Pokój: 20,50m2',
+        poddaszelazienka: 'Łazienka: 2,51m2',
+        poddaszegarderoba: 'Garderoba: 2,52m2',
+        poddaszelazienka2: 'Łazienka: 4,48m2',
+        poddaszepokoj2: 'Pokój: 9,84m2',
+        poddaszepokoj3: 'Pokój: 10,64m2'
+    };
+
+    const technologia = {
+        sciana: 'Ściany: bloczek z betonu komórkowego H+H 24 cm, styropian Termo Organika 20 cm, tynk',
+        brama: 'Brama: automatyczna',
+        strop: 'Strop: płyta żelbetowa',
+        scianka: 'Ścianka kolankowa - 100cm',
+        dach: 'Dach: dwuspadowy, nachylenie 45 st., więźba drewniana, blacha, okno dachowe',
+        piec: 'Kocioł: gazowy',
+        ogrzewanie: 'Ogrzewanie podłogowe : zastosowano we wszystkich pomieszczeniach mieszkalnych',
+        wentylacja: 'Wentylacja: grawitacyjna',
     };
 
 
@@ -59,42 +89,64 @@ const Details = (props) => {
     };
     return (
         <Layout>
-            <div className="container"><h1>MOKRZYSKA #2</h1></div>
+            <div className="container"><h1>Mokrzyska #2</h1></div>
             <div className="project-details-container">
                 <ImageGallery items={images} />
                 <div className="project-details-heading"><h2>Dom w Mokrzyskach</h2></div>
                 <div className="collapseheaderitem">
                     <div className="colitems">
-                        <CollapsibleItem title="Informacje Ogólne" metraz='' technologia='' cost="" area={generalinfo.area} tel={generalinfo.tel} />
-                        <CollapsibleItem title="Metraż" metraz={<>{m.parter}<br/>{m.poddasze}</>} technologia=''/>
-                        <CollapsibleItem title="Technologia" metraz="" technologia={t}/>
-                        <CollapsibleItem cost="Do uzgodnienia" title="Cena" metraz="" technologia=''/>
+                        <CollapsibleItem title="Informacje Ogólne" technologia='' cost=""
+                                         area={<>{generalinfo.area} <br/> {}
+                                             <br/> {} <br/>Tel.: {generalinfo.tel}</>}/>
+                        <CollapsibleItem title="Metraż Parter"
+                                         metraz={<><li>{parter.hol}</li>
+                                             <br/><li>{parter.pokoj}</li>
+                                             <br/><li>{parter.wiatrolap}</li>
+                                             <br/><li>{parter.spizarnia}</li>
+                                             <br/><li>{parter.salon}</li>
+                                             <br/><li>{parter.kuchnia}</li>
+                                             <br/><li>{parter.lazienka}</li>
+                                             <br/><li>{parter.kotlownia}</li>
+                                             <br/><li>{parter.garaz}</li>
+                                         </>}
+                                         technologia=''/>
+                        <CollapsibleItem title="Metraż Poddasze"
+                                         metraz={<><li>{poddasze.poddaszeschody}</li>
+                                             <br/><li>{poddasze.poddaszepokoj}</li>
+                                             <br/><li>{poddasze.poddaszelazienka}</li>
+                                             <br/><li>{poddasze.poddaszegarderoba}</li>
+                                             <br/><li>{poddasze.poddaszelazienka2}</li>
+                                             <br/><li>{poddasze.poddaszepokoj2}</li>
+                                             <br/><li>{poddasze.poddaszepokoj3}</li>
+                                         </>}
+                                         technologia=''/>
+                        <CollapsibleItem title="Technologia"
+                                         technologia={<><li>{technologia.sciana}</li>
+                                             <br/><li>{technologia.scianka}</li>
+                                             <br/><li>{technologia.dach}</li>
+                                             <br/><li>{technologia.piec}</li>
+                                             <br/><li>{technologia.ogrzewanie}</li>
+                                             <br/><li>{technologia.brama}</li>
+                                             <br/><li>{technologia.strop}</li>
+                                             <br/><li>{technologia.wentylacja}</li>
+                                         </>}/>
+                        <CollapsibleItem cost="Do uzgodnienia" title="Cena" technologia=''/>
 
                     </div>
 
                     <div className="project-details-description section vertical-line">
-                        Projekt nowoczesnego domu w stylu stodoły, który wraz z efektownym wyglądem bryły oferuje wygodne,
-                        funkcjonalne wnętrze. Z domem bryłowo łączy się jednostanowiskowy garaż, który zaprojektowany został
-                        z boku budynku. Modne materiały wykończeniowe, połączenie jasnego tynku z drewnianą okładziną oraz
-                        grafitowe akcenty tworzą efektowną wizualnie kompozycję. Bezokapowy dach został wykończony
-                        antracytową blachą z łączeniem na rąbek. Wspaniale prezentuje się elewacja ogrodowa z panoramicznym
-                        przeszkleniem, które otwiera imponujący widok na ogród. Wnętrze domu to starannie przemyślany
-                        program funkcjonalny z optymalnym układem pomieszczeń. Salon z nastrojowym kominkiem to miejsce
-                        rodzinnych spotkań i relaksu. Płynnie łączy się z jadalnią, w której można rozłożyć duży stół.
-                        Ozdobą wnętrza jest nowoczesne, przesuwne przeszklenie, zapewniające wygodne wyjście na osłonięty
-                        szerokim podcieniem taras. Kuchnia w „Domu w papawerach 2” to funkcjonalnie zorganizowana, jasna
-                        przestrzeń z obszernym blatem do pracy, barkiem śniadaniowym i odpowiednią ilością miejsc do
-                        przechowywania, które dodatkowo uzupełnia usytuowana pod schodami spiżarnia. W tej części domu
-                        przewidziano przejście do garażu, dzięki czemu szybko i wygodnie rozpakujemy zakupy spożywcze.
-                        Program użytkowy parteru obejmuje również wygodną sypialnię gościnną i zaprojektowaną na jej osi
-                        jasną łazienkę z prysznicem. Kotłownia gazowa została połączona z funkcją pralni i dostępna jest z
-                        wiatrołapu. Na poddaszu mieści się komfortowy apartament rodziców z łazienką i garderobą,
-                        panoramicznym widokiem na ogród oraz wygodną strefą telewizyjną. W praktyczny sposób oddzielono
-                        strefę rodziców od dzieci, projektując dwa pokoje dla najmłodszych domowników po przeciwnej stronie
-                        schodów. W łazience można zastosować program z wanną oraz prysznicem. „Dom w papawerach 2” to
-                        interesująca propozycja z kolekcji: projekty domów nowoczesnych, projekty domów w stylu nowoczesnej
-                        stodoły, projekty domów z poddaszem użytkowym. W ofercie dostępne są również inne wersje projektu.
+                        Nowoczesny, a przy tym bardzo funkcjonalny dom z fantastycznymi przeszkleniami spełnia wszystkie warunki do tego, by czuć się w nim szczęśliwie. Jego przestronność i doskonałe doświetlenie sprawiają, że przepełnia go dobra aura, a także wrażenie luksusu  – wszak ma się do dyspozycji nie tylko piękne wnętrze, ale także własne promienie słońca!
+                        Do wygody, jaką oferuje ten stylowy dom, dochodzą uroki prestiżowej, a przy tym bardzo malowniczej okolicy. W sąsiedztwie domu znajdują się bowiem wspaniałe, gęste lasy, których widokiem można się cieszyć, spoglądając z okna. Dom w takiej lokalizacji z pewnością zapewni poczucie spokoju i da szansę zarówno na dobrą zabawę, jak i odprężenie – jest bowiem i natura na wyciągnięcie ręki, i wygoda na najwyższym poziomie.
+                        Piękna działka, licząca około 8,5 arów, stanie się prawdziwym azylem, bowiem ani z tyłu domu, ani od frontu nie powstaną żadne nowe zabudowania. Dzięki temu, mimo ogromnych okien, będzie się miało poczucie prywatności i intymności. Eleganckie i nowoczesne, a zarazem niewielkie osiedle (tylko 5 domów w ciągu!), usytuowane będzie wzdłuż drogi, która pozostaje wyłącznie do własnego użytku mieszkańców. To daje gwarancję spokoju, a mała społeczność pozwoli na stworzenie przyjacielskiej, miłej sąsiedzkiej atmosfery.
+                        Wspaniały, rodzinny dom w stylu „nowoczesnej stodoły” już wkrótce będzie dostępny w naszej ofercie – zapraszamy wszystkich, którzy marzą o znalezieniu swojego azylu.
+
                     </div>
+                </div>
+                <div className='project-details-description'>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/mrmhFEY5K4c"
+                            title="YouTube video player" frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen></iframe>
                 </div>
             </div>
 

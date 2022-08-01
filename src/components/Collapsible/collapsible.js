@@ -23,12 +23,12 @@ const CollapsibleItem = (props) => {
                 </div>
             </div>
 
-            <div className="collapsible collapseditem">
+            <div className="collapsible">
                 <div {...getCollapseProps(props)}>
                     <div className="content2">
                         {props.area}
                         {props.tel}
-                        {props.technologia.brama}
+                        {props.technologia}
                         {props.cost}
                         {props.metraz} <br />
 

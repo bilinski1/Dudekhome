@@ -51,71 +51,116 @@ const Details = (props) => {
 
     const generalinfo = {
         area: 'Powierzchnia: 128,04 m2',
-        garagearea: 'Garaż: 22,47m2',
-        heating: 'Kotłownia: 4,82m2',
         tel: '3235434535'
 
     };
 
-    const m = {
-        parter: 'Parter: 81,64 m2',
-        poddasze: 'Poddasze: 53,20 m2',
+    const parter = {
+        hol: 'Hol: 4,37m2',
+        pokoj: 'Pokój: 11,51m2',
+        wiatrolap: 'Poddasze: 53,20 m2',
+        spizarnia: 'Spiżarnia: 4,35m2',
+        salon: 'Salon 30,95m2',
+        kuchnia: 'Kucnia 7,94m2',
+        lazienka: 'Łazienka 2,93m2',
+        kotlownia: 'Kotłownia: 4,23m2',
+        garaz: 'Garaż: 22,47m2'
+
     };
 
+    const poddasze = {
+        poddaszeschody: 'Hol i Schody: 10,58m2',
+        poddaszepokoj: 'Pokój: 20,50m2',
+        poddaszelazienka: 'Łazienka: 2,51m2',
+        poddaszegarderoba: 'Garderoba: 2,52m2',
+        poddaszelazienka2: 'Łazienka: 4,48m2',
+        poddaszepokoj2: 'Pokój: 9,84m2',
+        poddaszepokoj3: 'Pokój: 10,64m2'
+    };
 
-    const t = {
-        brama: 'Brama: Hormann',
+    const technologia = {
+        sciana: 'Ściany: bloczek z betonu komórkowego H+H 24 cm, styropian Termo Organika 20 cm, tynk',
+        brama: 'Brama: automatyczna',
+        strop: 'Strop: płyta żelbetowa',
+        scianka: 'Ścianka kolankowa - 100cm',
+        dach: 'Dach: dwuspadowy, nachylenie 45 st., więźba drewniana, blacha, okno dachowe',
+        piec: 'Kocioł: gazowy',
+        ogrzewanie: 'Ogrzewanie podłogowe : zastosowano we wszystkich pomieszczeniach mieszkalnych',
+        wentylacja: 'Wentylacja: grawitacyjna',
     };
 
     return (
         <Layout>
-            <div className="container"><h1>PORĘBA SPYTKOWSKA</h1></div>
+            <div className="container"><h1>Poręba Spytkowska</h1></div>
             <div className="project-details-container">
                 <ImageGallery items={images}/>
                 <div className="project-details-heading"><h2>Poręba Spytkowska</h2></div>
                 <div className="collapseheaderitem">
                     <div className="colitems">
                         <CollapsibleItem title="Informacje Ogólne" technologia='' cost=""
-                                         area={<>{generalinfo.area} <br/> {generalinfo.garagearea}
-                                             <br/> {generalinfo.heating} <br/>Tel.: {generalinfo.tel}</>}/>
-                        <CollapsibleItem title="Metraż" metraz={<>{m.parter}<br/>{m.poddasze}</>} technologia=''/>
-                        <CollapsibleItem title="Technologia" technologia={t}/>
-                        <CollapsibleItem cost="Do uzgodnienia" title="Cena" metraz="" technologia=''/>
+                                         area={<>{generalinfo.area} <br/> {}
+                                             <br/> {} <br/>Tel.: {generalinfo.tel}</>}/>
+                        <CollapsibleItem title="Metraż Parter"
+                                         metraz={<><li>{parter.hol}</li>
+                                             <br/><li>{parter.pokoj}</li>
+                                             <br/><li>{parter.wiatrolap}</li>
+                                             <br/><li>{parter.spizarnia}</li>
+                                             <br/><li>{parter.salon}</li>
+                                             <br/><li>{parter.kuchnia}</li>
+                                             <br/><li>{parter.lazienka}</li>
+                                             <br/><li>{parter.kotlownia}</li>
+                                             <br/><li>{parter.garaz}</li>
+                                         </>}
+                                         technologia=''/>
+                        <CollapsibleItem title="Metraż Poddasze"
+                                         metraz={<><li>{poddasze.poddaszeschody}</li>
+                                             <br/><li>{poddasze.poddaszepokoj}</li>
+                                             <br/><li>{poddasze.poddaszelazienka}</li>
+                                             <br/><li>{poddasze.poddaszegarderoba}</li>
+                                             <br/><li>{poddasze.poddaszelazienka2}</li>
+                                             <br/><li>{poddasze.poddaszepokoj2}</li>
+                                             <br/><li>{poddasze.poddaszepokoj3}</li>
+                                         </>}
+                                         technologia=''/>
+                        <CollapsibleItem title="Technologia"
+                                         technologia={<><li>{technologia.sciana}</li>
+                                             <br/><li>{technologia.scianka}</li>
+                                             <br/><li>{technologia.dach}</li>
+                                             <br/><li>{technologia.piec}</li>
+                                             <br/><li>{technologia.ogrzewanie}</li>
+                                             <br/><li>{technologia.brama}</li>
+                                             <br/><li>{technologia.strop}</li>
+                                             <br/><li>{technologia.wentylacja}</li>
+                        </>}/>
+                        <CollapsibleItem cost="Do uzgodnienia" title="Cena" technologia=''/>
 
                     </div>
 
                     <div className="project-details-description section vertical-line">
-                        Projekt nowoczesnego domu w stylu stodoły, który wraz z efektownym wyglądem bryły oferuje
-                        wygodne,
-                        funkcjonalne wnętrze. Z domem bryłowo łączy się jednostanowiskowy garaż, który zaprojektowany
-                        został
-                        z boku budynku. Modne materiały wykończeniowe, połączenie jasnego tynku z drewnianą okładziną
-                        oraz
-                        grafitowe akcenty tworzą efektowną wizualnie kompozycję. Bezokapowy dach został wykończony
-                        antracytową blachą z łączeniem na rąbek. Wspaniale prezentuje się elewacja ogrodowa z
-                        panoramicznym
-                        przeszkleniem, które otwiera imponujący widok na ogród. Wnętrze domu to starannie przemyślany
-                        program funkcjonalny z optymalnym układem pomieszczeń. Salon z nastrojowym kominkiem to miejsce
-                        rodzinnych spotkań i relaksu. Płynnie łączy się z jadalnią, w której można rozłożyć duży stół.
-                        Ozdobą wnętrza jest nowoczesne, przesuwne przeszklenie, zapewniające wygodne wyjście na
-                        osłonięty
-                        szerokim podcieniem taras. Kuchnia w „Domu w papawerach 2” to funkcjonalnie zorganizowana, jasna
-                        przestrzeń z obszernym blatem do pracy, barkiem śniadaniowym i odpowiednią ilością miejsc do
-                        przechowywania, które dodatkowo uzupełnia usytuowana pod schodami spiżarnia. W tej części domu
-                        przewidziano przejście do garażu, dzięki czemu szybko i wygodnie rozpakujemy zakupy spożywcze.
-                        Program użytkowy parteru obejmuje również wygodną sypialnię gościnną i zaprojektowaną na jej osi
-                        jasną łazienkę z prysznicem. Kotłownia gazowa została połączona z funkcją pralni i dostępna jest
-                        z
-                        wiatrołapu. Na poddaszu mieści się komfortowy apartament rodziców z łazienką i garderobą,
-                        panoramicznym widokiem na ogród oraz wygodną strefą telewizyjną. W praktyczny sposób oddzielono
-                        strefę rodziców od dzieci, projektując dwa pokoje dla najmłodszych domowników po przeciwnej
-                        stronie
-                        schodów. W łazience można zastosować program z wanną oraz prysznicem. „Dom w papawerach 2” to
-                        interesująca propozycja z kolekcji: projekty domów nowoczesnych, projekty domów w stylu
-                        nowoczesnej
-                        stodoły, projekty domów z poddaszem użytkowym. W ofercie dostępne są również inne wersje
-                        projektu.
+                        Nowoczesny, komfortowy i wyjątkowy funkcjonalny dom typu „stodoła” położony w malowniczej Porębie Spytkowskiej to miejsce, które w mig przemieni się w przytulny, rodzinny azyl, zapewniający wygodę i wyjątkowe doznania estetyczne. Tutaj nikomu nie zabraknie miejsca na realizację planów, zabawę, relaks i po prostu dobre życie.
+                        Niezwykle urokliwa okolica, w jakiej stoi dom, cieszy się uwielbieniem miłośników spokoju i obcowania z naturą. Piękna działka o powierzchni 10 arów zlokalizowana jest przy lesie, który można podziwiać z dużych okien domu. Cudowna zieleń z pewnością przyniesie ukojenie latem – da odprężenie zmęczonym błękitem nieba oczom, a zimą zaśnieżony pejzaż będzie zachwycał swoją bajkową aurą. Co ciekawe, przy dobrej widoczności można nacieszyć oko widokiem… majestatycznych Tatr! To idealne miejsce na snucie marzeń, dające natchnienie i możliwość całkowitego odprężenia.
+                        Do posesji prowadzi prywatna droga, wyłącznie do użytku mieszkańców, dzięki czemu każdy odczuje odrobinę intymności, a na pewno zachwyci się ciszą. Daje to również możliwość rozkoszowania się śpiewem ptaków, którego nie zakłóci szum ulicy. Dom położony jest w eleganckiej, miłej dzielnicy z nowym budownictwem, w której króluje spokój i przyjazna atmosfera. Każdy odnajdzie tutaj idealną przestrzeń dla siebie.
+                        Wszystkich, którzy poszukują swojego nowego miejsca na Ziemi, zapraszamy do zapoznania się ze szczegółami naszej oferty.
+                        Nowoczesny, komfortowy i wyjątkowy funkcjonalny dom typu „stodoła” położony w malowniczej Porębie Spytkowskiej to miejsce, które w mig przemieni się w przytulny, rodzinny azyl, zapewniający wygodę i wyjątkowe doznania estetyczne. Tutaj nikomu nie zabraknie miejsca na realizację planów, zabawę, relaks i po prostu dobre życie.
+                        Niezwykle urokliwa okolica, w jakiej stoi dom, cieszy się uwielbieniem miłośników spokoju i obcowania z naturą. Piękna działka o powierzchni 10 arów zlokalizowana jest przy lesie, który można podziwiać z dużych okien domu. Cudowna zieleń z pewnością przyniesie ukojenie latem – da odprężenie zmęczonym błękitem nieba oczom, a zimą zaśnieżony pejzaż będzie zachwycał swoją bajkową aurą. Co ciekawe, przy dobrej widoczności można nacieszyć oko widokiem… majestatycznych Tatr! To idealne miejsce na snucie marzeń, dające natchnienie i możliwość całkowitego odprężenia.
+                        Do posesji prowadzi prywatna droga, wyłącznie do użytku mieszkańców, dzięki czemu każdy odczuje odrobinę intymności, a na pewno zachwyci się ciszą. Daje to również możliwość rozkoszowania się śpiewem ptaków, którego nie zakłóci szum ulicy. Dom położony jest w eleganckiej, miłej dzielnicy z nowym budownictwem, w której króluje spokój i przyjazna atmosfera. Każdy odnajdzie tutaj idealną przestrzeń dla siebie.
+                        Wszystkich, którzy poszukują swojego nowego miejsca na Ziemi, zapraszamy do zapoznania się ze szczegółami naszej oferty.
                     </div>
+                </div>
+
+            </div>
+            <div className='partners-section'>
+                <div className='pad5'>
+                    <iframe width="460" height="315" src="https://www.youtube.com/embed/KMnuLsxf5mE"
+                            title="YouTube video player" frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen></iframe>
+                </div>
+                <div className='pad5'>
+                    <iframe width="460" height="315" src="https://www.youtube.com/embed/8LfSqLChxn4"
+                            title="YouTube video player" frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen></iframe>
                 </div>
             </div>
 

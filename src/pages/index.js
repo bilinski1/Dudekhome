@@ -22,7 +22,7 @@ const IndexPage = () => {
                     <AboutUs/>
                     <Carousel/>
                     <div className="wrapper">
-                        <AniLink paintDrip color="white" to="/Projekt">
+                        <AniLink paintDrip color="white" to="/ProjectsPage">
                             <Button>Lista Inwestycji</Button>
                         </AniLink>
                     </div>

@@ -9,7 +9,7 @@ const ContactUs = () => {
     return (
         <Layout>
             <div className="contact-container">
-                <h1 className="hero-heading">KONTAKT</h1>
+                <h1 className="hero-heading">Kontakt</h1>
             </div>
             <div className="info-wrapper">
 

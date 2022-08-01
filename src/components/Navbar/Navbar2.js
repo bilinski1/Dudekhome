@@ -41,9 +41,13 @@ useEffect(() => {
                             {click ? <FaTimes color="black" /> : <FaBars/>}
                         </MobileIcon>
                         <NavMenu onClick={handleClick} click={click}>
+
                             <NavItem>
+                                <AniLink paintDrip color="white" to="/">
                                 <NavLinks to="/">HOME</NavLinks>
+                                </AniLink>
                             </NavItem>
+
                             <NavItem>
                                 <NavLinks to="/Onas">O NAS</NavLinks>
                             </NavItem>

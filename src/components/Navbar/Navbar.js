@@ -3,6 +3,7 @@ import {FaBars, FaTimes} from 'react-icons/fa'
 import {IconContext} from 'react-icons/lib'
 import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavLinks, NavItem, Logo} from './NavbarStyles'
 import logo from '../../images/dudeklogooriginal.png'
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 
 const Navbar = () => {
@@ -16,7 +17,7 @@ const changeNav = () => {
         setScroll(true)
     } else {
         setScroll(false)
-    }git
+    }
     
 }
 
@@ -31,15 +32,20 @@ useEffect(() => {
             <IconContext.Provider value={{ color: "#fff"}}>
                 <Nav active={scroll} click={click}>
                     <NavbarContainer>
+
                         <NavLogo to="/">
+                            <AniLink paintDrip color="white" to="/">
                             <Logo src={logo} alt="Logo" to="/"/>
+                        </AniLink>
                         </NavLogo>
                         <MobileIcon onClick={handleClick}>
                             {click ? <FaTimes color="black" /> : <FaBars/>}
                         </MobileIcon>
                         <NavMenu onClick={handleClick} click={click}>
                             <NavItem>
+                                <AniLink paintDrip color="white" to="/">
                                 <NavLinks to="/">HOME</NavLinks>
+                                    </AniLink>
                             </NavItem>
                             <NavItem>
                                 <NavLinks to="/Onas">O NAS</NavLinks>
@@ -51,7 +57,8 @@ useEffect(() => {
                                 <NavLinks to="/ContactUs">KONTAKT</NavLinks>
                             </NavItem>
                         </NavMenu>
-                    </NavbarContainer>
+
+                        </NavbarContainer>
                 </Nav>
             </IconContext.Provider>
         </>

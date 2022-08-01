@@ -3,6 +3,10 @@ import "./partners.scss";
 import Janickainteriors from "../../images/partners-janicka.png"
 import Autoporty from "../../images/partners-autoporty.png"
 import Mark from '../../images/LOGO3.jpeg'
+import Niko from '../../images/Niko-logo.jpg'
+import Bumat from '../../images/bumat.jpeg'
+import Aura from '../../images/aura.jpeg'
+
 import {
     BrowserRouter as Router,
     Switch,
@@ -31,6 +35,24 @@ const Partners = () => {
                     <a target="_blank" href="https://mark-brzesko.pl">
                     <div><h3>Mark Brzesko</h3>mark-brzesko.pl</div>
                     <img src={Mark} alt="Mark Brzesko"/>
+                    </a>
+                </div>
+                <div>
+                    <a target="_blank" href="">
+                        <div><h3>Niko</h3>Elewacje drewniane, wentylowane, tradycyjne</div>
+                        <img src={Niko} alt="Mark Brzesko"/>
+                    </a>
+                </div>
+                <div>
+                    <a target="_blank" href="">
+                        <div><h3>Bumat</h3>Bumat - Materiały Budowlane</div>
+                        <img src={Bumat} alt="Mark Brzesko"/>
+                    </a>
+                </div>
+                <div>
+                    <a target="_blank" href="">
+                        <div><h3>Aura</h3>Sklep Ogrodniczy AURA</div>
+                        <img src={Aura} alt="Mark Brzesko"/>
                     </a>
                 </div>
             </div>
