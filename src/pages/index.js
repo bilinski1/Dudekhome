@@ -12,6 +12,7 @@ import AniLink from "gatsby-plugin-transition-link/AniLink"
 import Projekt from "./Projekt";
 
 
+
 const IndexPage = () => {
     return (
         <Layout>

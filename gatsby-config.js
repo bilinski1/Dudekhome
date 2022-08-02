@@ -1,7 +1,9 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.dudekhome.com",
-    title: "Dudekhome",
+    title: "Dudekhome - Domy Szkietowe, Domy Modułowe, Nowoczesne Stodoły",
+    description: "Dudekhome oferuje: Domy na sprzedaż, Inwestycje na terenie Brzeska, Działki, Domy Modułowe",
+    author: "Daniel Dudek",
   },
   plugins: [
     /*
