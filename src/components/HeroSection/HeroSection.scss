@@ -76,6 +76,10 @@
     border-style: solid;
     border-width: 1px;
     border-color: lightgrey;
+
+    @media screen and (max-width: 375px) {
+    width: 200px;
+    }
 }
 
 
