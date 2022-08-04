@@ -20,7 +20,7 @@ const IndexPage = () => {
         <Layout>
             <Helmet>
                 <title>Dudekhome - Nieruchomości i Działki w Brzesku i Małopolsce</title>
-                <link rel="canonical" href="http://dudekhome.com"/>
+                <link rel="canonical" href="https://dudekhome.com"/>
                 <meta name="description" content="Nieruchomości oraz działki w urokliwych okolicach małopolski, nowoczesne stajnie, domy szkieletowe" />
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <meta name="robots" content="index, follow" />
