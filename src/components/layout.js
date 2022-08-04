@@ -3,7 +3,7 @@ import './layout.scss'
 import Navbar from "./Navbar/Navbar"
 import Footer from "./Footer/Footer"
 import PropTypes from "prop-types"
-import { SEO } from "./seo"
+
 
 
 const Layout = ({children}) => {
@@ -21,6 +21,3 @@ Layout.propTypes = {
 }
 
 export default Layout
-export const Head = () => (
-    <SEO />
-)

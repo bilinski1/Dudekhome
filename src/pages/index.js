@@ -10,12 +10,21 @@ import Partners from "../components/Partners/partners"
 import Map from "../components/Map/Map"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import Projekt from "./Projekt";
+import {Helmet} from "react-helmet";
 
 
 
 const IndexPage = () => {
+
     return (
         <Layout>
+            <Helmet>
+                <title>Dudekhome - Nieruchomości i Działki w Brzesku i Małopolsce</title>
+                <link rel="canonical" href="http://dudekhome.com"/>
+                <meta name="description" content="Nieruchomości oraz działki w urokliwych okolicach małopolski, nowoczesne stajnie, domy szkieletowe" />
+                <meta name="viewport" content="width=device-width, initial-scale=1"/>
+                <meta name="robots" content="index, follow" />
+            </Helmet>
             <HeroSection/>
             <main>
                 <Projekt />

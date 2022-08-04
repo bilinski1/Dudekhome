@@ -3,7 +3,8 @@ import './layout.scss'
 import Navbar from "./Navbar/Navbar-home"
 import Footer from "./Footer/Footer"
 import PropTypes from "prop-types"
-import { SEO } from "./seo"
+import {useStaticQuery} from "gatsby";
+import {Helmet} from "react-helmet";
 
 
 const Layout = ({children}) => {
@@ -21,6 +22,3 @@ Layout.propTypes = {
 }
 
 export default Layout
-export const Head = () => (
-    <SEO />
-)
