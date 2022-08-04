@@ -4,10 +4,17 @@ import Layout from "../components/layout";
 import "../styles/Projekt.scss";
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
+import {Helmet} from "react-helmet";
 
 const ContactUs = () => {
     return (
         <Layout>
+            <Helmet>
+                <title>Dudekhome - Kontakt</title>
+                <link rel="canonical" href="https://dudekhome.com"/>
+                <meta name="description" content="Nieruchomości oraz działki w urokliwych okolicach małopolski, nowoczesne stajnie, domy szkieletowe" />
+                <meta name="viewport" content="width=device-width, initial-scale=1"/>
+            </Helmet>
             <div className="contact-container">
                 <h1 className="hero-heading">Kontakt</h1>
             </div>
