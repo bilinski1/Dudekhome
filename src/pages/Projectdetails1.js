@@ -46,6 +46,22 @@ const Details = (props) => {
             original: 'https://i.postimg.cc/764Kyyyk/projekt-dom-w-papawerach-2-b6bd60631370038d4f9ba2f8a1c70dc5-11815-1.gif',
             thumbnail: 'https://i.postimg.cc/CKG476n6/projekt-dom-w-papawerach-2-b6bd60631370038d4f9ba2f8a1c70dc5-11815-1.png',
         },
+        {
+            original: 'https://i.postimg.cc/kgy7RNk4/1.jpg',
+            thumbnail: 'https://i.postimg.cc/bdXB3M2h/1ico.jpg',
+        },
+        {
+            original: 'https://i.postimg.cc/9fFCdRhB/2.jpg',
+            thumbnail: 'https://i.postimg.cc/TYgdfv0n/2ico.jpg',
+        },
+        {
+            original: 'https://i.postimg.cc/Jz81hYYv/3.jpg',
+            thumbnail: 'https://i.postimg.cc/Pq3h2Xfn/3ico.jpg',
+        },
+        {
+            original: 'https://i.postimg.cc/Dftv9wr2/4.jpg',
+            thumbnail: 'https://i.postimg.cc/c1K1kn89/4ico.jpg',
+        },
 
     ];
 
@@ -148,6 +164,20 @@ const Details = (props) => {
                     </div>
                 </div>
 
+            </div>
+            <div className='partners-section'>
+                <div className='pad5'>
+                    <iframe width="460" height="315" src="https://www.youtube.com/embed/S6SFqWVQ6rA"
+                            title="YouTube video player" frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen></iframe>
+                </div>
+                <div className='pad5'>
+                    <iframe width="460" height="315" src="https://www.youtube.com/embed/fHkDsqBGGJE"
+                            title="YouTube video player" frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen></iframe>
+                </div>
             </div>
             <div className='partners-section'>
                 <div className='pad5'>
