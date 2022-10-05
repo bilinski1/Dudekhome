@@ -4,6 +4,7 @@ import projecticon1 from "../images/project1-icon.jpg"
 import projecticon2 from "../images/project2icon.jpg"
 import projecticon3 from "../images/project3icon.jpeg"
 import domwmalinowkach from "../images/Realizacja_Malinowka/domwmalinowkach-kopia.jpg"
+import hala from "../images/hala.jpeg"
 import ProjectItem from "./Project/projectItem"
 import {Button} from "../components/LayoutElements/Button2";
 import AniLink from "gatsby-plugin-transition-link/AniLink";
@@ -95,6 +96,13 @@ const Projekt = () => {
                          fieldarea={"-"} housearea={"-"} fieldno={"-"} garagearea={"-"}
                          image={domwmalinowkach}
                          desc={<div className='description'>'Ten piękny, tradycyjny dom jednorodzinny powstał z myślą o tym, by spełniać marzenia – zapewnić maksimum komfortowej przestrzeni do życia dla wszystkich, z jednoczesnym zachowaniem przytulności, prywatności i poczucia ciepła każdemu z osobna. Funkcjonalne wnętrze zapewni wygodę i da możliwość zaaranżowania domu zgodnie z własnym, indywidualnym rytmem życia każdej rodziny. Znajdzie się więc miejsce na relaks, pracę i rozrywkę, a co najważniejsze – na rodzinne szczęście. '</div>}
+            />
+            <ProjectItem no={7} url={"/ProjectsPage"}
+                         heading={["Hala", <br/>, <br/>, "WKRÓTCE DOSTĘPNY"]}
+                         description={""}
+                         fieldarea={"-"} housearea={"-"} fieldno={"-"} garagearea={"-"}
+                         image={hala}
+                         desc={<div className='description'>Etap pozwoleń <br/> Więcej informacji wkrótce</div>}
             />
 
             <div className="item-container">
