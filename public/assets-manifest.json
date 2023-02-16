@@ -37,9 +37,10 @@
   "component---src-pages-onas-js-45304d762fb90c1ba928.js.map": "component---src-pages-onas-js-45304d762fb90c1ba928.js.map",
   "component---src-pages-onas-js-5e8df454616e5525a558.js.map": "component---src-pages-onas-js-5e8df454616e5525a558.js.map",
   "component---src-pages-onas-js.js": "component---src-pages-onas-js-45304d762fb90c1ba928.js",
+  "component---src-pages-projectdetails-1-js-286151dadae096cf6560.js.map": "component---src-pages-projectdetails-1-js-286151dadae096cf6560.js.map",
   "component---src-pages-projectdetails-1-js-3d9c3a21df1f3a71e6ae.js.map": "component---src-pages-projectdetails-1-js-3d9c3a21df1f3a71e6ae.js.map",
   "component---src-pages-projectdetails-1-js-a7ec76ea9cf80f5932e9.js.map": "component---src-pages-projectdetails-1-js-a7ec76ea9cf80f5932e9.js.map",
-  "component---src-pages-projectdetails-1-js.js": "component---src-pages-projectdetails-1-js-3d9c3a21df1f3a71e6ae.js",
+  "component---src-pages-projectdetails-1-js.js": "component---src-pages-projectdetails-1-js-286151dadae096cf6560.js",
   "component---src-pages-projectdetails-2-js-57b508e8f9e8f5c4c4bc.js.map": "component---src-pages-projectdetails-2-js-57b508e8f9e8f5c4c4bc.js.map",
   "component---src-pages-projectdetails-2-js.js": "component---src-pages-projectdetails-2-js-57b508e8f9e8f5c4c4bc.js",
   "component---src-pages-projectdetails-3-js-0aa49292480f50fee73a.js.map": "component---src-pages-projectdetails-3-js-0aa49292480f50fee73a.js.map",
@@ -49,8 +50,9 @@
   "component---src-pages-projects-page-js-fd969db4d3ccc91c0a75.js.map": "component---src-pages-projects-page-js-fd969db4d3ccc91c0a75.js.map",
   "component---src-pages-projects-page-js.js": "component---src-pages-projects-page-js-fd969db4d3ccc91c0a75.js",
   "db17cd7eb524817cb72457693d38dd483eeffca2-426b426b635f79c78084.js.map": "db17cd7eb524817cb72457693d38dd483eeffca2-426b426b635f79c78084.js.map",
+  "db17cd7eb524817cb72457693d38dd483eeffca2-a52b7f4063209caa4403.js.map": "db17cd7eb524817cb72457693d38dd483eeffca2-a52b7f4063209caa4403.js.map",
   "db17cd7eb524817cb72457693d38dd483eeffca2-e3054fcb1679dfaf5183.js.map": "db17cd7eb524817cb72457693d38dd483eeffca2-e3054fcb1679dfaf5183.js.map",
-  "db17cd7eb524817cb72457693d38dd483eeffca2.js": "db17cd7eb524817cb72457693d38dd483eeffca2-426b426b635f79c78084.js",
+  "db17cd7eb524817cb72457693d38dd483eeffca2.js": "db17cd7eb524817cb72457693d38dd483eeffca2-a52b7f4063209caa4403.js",
   "e56466b878cbc55652d083d1937db71eaed61cf3-d6a044c48f6458f5a2d2.js.LICENSE.txt": "e56466b878cbc55652d083d1937db71eaed61cf3-d6a044c48f6458f5a2d2.js.LICENSE.txt",
   "e56466b878cbc55652d083d1937db71eaed61cf3-d6a044c48f6458f5a2d2.js.map": "e56466b878cbc55652d083d1937db71eaed61cf3-d6a044c48f6458f5a2d2.js.map",
   "e56466b878cbc55652d083d1937db71eaed61cf3.js": "e56466b878cbc55652d083d1937db71eaed61cf3-d6a044c48f6458f5a2d2.js",
@@ -96,6 +98,7 @@
   "styles.css": "styles.7ff7c99d66a3654efd4a.css",
   "webpack-runtime-70c5ea262fb55df59b2e.js.map": "webpack-runtime-70c5ea262fb55df59b2e.js.map",
   "webpack-runtime-763c418a78b5f75dba7d.js.map": "webpack-runtime-763c418a78b5f75dba7d.js.map",
+  "webpack-runtime-c73c7dd7097be6b4b3ec.js.map": "webpack-runtime-c73c7dd7097be6b4b3ec.js.map",
   "webpack-runtime-ff0493fe6c35b8df1efb.js.map": "webpack-runtime-ff0493fe6c35b8df1efb.js.map",
-  "webpack-runtime.js": "webpack-runtime-763c418a78b5f75dba7d.js"
+  "webpack-runtime.js": "webpack-runtime-c73c7dd7097be6b4b3ec.js"
 }
