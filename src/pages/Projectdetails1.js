@@ -6,6 +6,7 @@ import {FiArrowUpCircle} from "@react-icons/all-files/fi/FiArrowUpCircle";
 import {FiArrowDownCircle} from "@react-icons/all-files/fi/FiArrowDownCircle";
 import ImageGallery from 'react-image-gallery';
 import CollapsibleItem from "../components/Collapsible/collapsible";
+import { FaBorderStyle } from "react-icons/fa";
 
 
 const Details = (props) => {
@@ -65,6 +66,56 @@ const Details = (props) => {
 
     ];
 
+    const images2 = [
+        {
+            original: 'https://i.postimg.cc/nhJKJVt8/Etap-budowa17.jpg',
+            thumbnail: 'https://i.postimg.cc/7ZHC95kL/Etap-budowa17.jpg',
+        },
+
+        {
+            original: 'https://i.postimg.cc/GtTtBDGM/Etap-budowa15.jpg',
+            thumbnail: 'https://i.postimg.cc/Gh1TBMgG/Etap-budowa15.jpg',
+        },
+        {
+            original: 'https://i.postimg.cc/Y2vzNyxP/Etap-budowa16.jpg',
+            thumbnail: 'https://i.postimg.cc/7YMGSgjc/Etap-budowa16.jpg',
+        },
+        {
+            original: 'https://i.postimg.cc/nhG4c8HX/Etap-budowa18.jpg',
+            thumbnail: 'https://i.postimg.cc/3xtkc38F/Etap-budowa18.jpg',
+        },
+        {
+            original: 'https://i.postimg.cc/4ddmgqdR/Etap-budowa2.jpg',
+            thumbnail: 'https://i.postimg.cc/nLLDFCRW/Etap-budowa2.jpg',
+        },
+        {
+            //https://postimg.cc/MvKVmVzN
+            original: 'https://i.postimg.cc/TPTKkpvw/Etap-budowa1.jpg',
+            thumbnail: "https://i.postimg.cc/rwj42SJW/Etap-budowa1.jpg",
+        },
+        {
+            original: 'https://i.postimg.cc/c1PMFM9L/Etap-budowa11.jpg',
+            thumbnail: 'https://i.postimg.cc/5y8H7vyX/Etap-budowa11.jpg',
+        },
+        {
+            original: 'https://i.postimg.cc/9f1rsCcB/Etap-budowa3.jpg',
+            thumbnail: 'https://i.postimg.cc/1zYNfsb3/Etap-budowa3.jpg',
+        },
+        {
+            original: 'https://i.postimg.cc/3WMR2wZ3/Etap-budowa4.jpg',
+            thumbnail: 'https://i.postimg.cc/NM39kbsh/Etap-budowa4.jpg',
+        },
+        {
+            original: 'https://i.postimg.cc/SsvjNd22/Etap-budowa6.jpg',
+            thumbnail: 'https://i.postimg.cc/B6LPFRGc/Etap-budowa6.jpg',
+        },
+        {
+            original: 'https://i.postimg.cc/xTHGhJhy/Etap-budowa8.jpg',
+            thumbnail: 'https://i.postimg.cc/3rGDxM13/Etap-budowa8.jpg',
+        },
+
+    ];
+
     const generalinfo = {
         area: 'Powierzchnia: 110,57 m2',
         tel: '+48665617404'
@@ -109,7 +160,13 @@ const Details = (props) => {
         <Layout>
             <div className="container"><h1>Poręba Spytkowska</h1></div>
             <div className="project-details-container">
+            <div style={{backgroundColor: '#f0f0f5', border: '1px solid grey', borderRadius: '10px'}}>
                 <ImageGallery items={images}/>
+                </div>
+                <div className="project-details-heading"><h2>Kolejny Etap</h2></div>
+                <div style={{backgroundColor: '#f0f0f5', border: '1px solid grey', borderRadius: '10px'}}>
+                <ImageGallery items={images2}/>
+                </div>
                 <div className="project-details-heading"><h2>Poręba Spytkowska</h2></div>
                 <div className="collapseheaderitem">
                     <div className="colitems">

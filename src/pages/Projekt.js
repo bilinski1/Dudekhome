@@ -62,7 +62,7 @@ const Projekt = () => {
                          heading={"Dom jednorodzinny z poddaszem użytkowym"}
                          description={"4 pokoje, 1 kuchnia, 2 łazienki, kotłownia, garderoby, garaż"}
                          fieldarea={"8,6 a"} housearea={"110,57"} fieldno={"3285/6"} garagearea={"18,93"}
-                         image={projecticon2}
+                         image={projecticon1}
                          imageurl3={papaweryaicon3}
                          imageurl4={papaweryaicon4}
                          imageurl5={papaweryaicon5}
@@ -71,7 +71,7 @@ const Projekt = () => {
                          heading={"Dom jednorodzinny z poddaszem użytkowym"}
                          description={"4 pokoje, 1 kuchnia, 2 łazienki, kotłownia, garderoby, garaż"}
                          fieldarea={"8,6 a"} housearea={"110,57"} fieldno={"3285/6"} garagearea={"18,93"}
-                         image={projecticon2}
+                         image={projecticon1}
                          imageurl3={papaweryaicon3}
                          imageurl4={papaweryaicon4}
                          imageurl5={papaweryaicon5}
