@@ -11,13 +11,23 @@ const Details = (props) => {
     const images = [
         {
             //https://postimg.cc/MvKVmVzN
-            original: 'https://i.postimg.cc/3JsCY353/details1.jpg',
-            thumbnail: 'https://i.postimg.cc/8kv2TPxC/details1.jpg',
+            original: 'https://i.postimg.cc/8C7SrMF5/PAPAWERY-02-0-01-foto1-CMYK.jpg',
+            thumbnail: "https://i.postimg.cc/DZbnRLFD/PAPAWERY-02-0-01-foto1-CMYK.png",
         },
         {
             //https://postimg.cc/MvKVmVzN
-            original: 'https://i.postimg.cc/4NJBjfgq/details1.jpg',
-            thumbnail: 'https://i.postimg.cc/02YdkL8m/details2.jpg',
+            thumbnail: 'https://i.postimg.cc/3rjJ3rbM/mokr1.jpg',
+            original: "https://i.postimg.cc/MTS2LVwn/mokr1.jpg",
+        },
+        {
+            //https://postimg.cc/MvKVmVzN
+            thumbnail: 'https://i.postimg.cc/6pq9Vr6w/mokr2.jpg',
+            original: "https://i.postimg.cc/Y0d5jPWF/mokr2.jpg",
+        },
+        {
+            //https://postimg.cc/MvKVmVzN
+            thumbnail: 'https://i.postimg.cc/WbXNJWvX/mokr3.jpg',
+            original: "https://i.postimg.cc/J07wr8Gm/mokr3.jpg",
         },
         {
             //https://postimg.cc/MvKVmVzN
@@ -33,12 +43,16 @@ const Details = (props) => {
             thumbnail: 'https://i.postimg.cc/9XYvp2n8/DJI-0471.jpg',
         },
         {
-            original: 'https://i.postimg.cc/2SCy4tn4/projekt1.gif',
-            thumbnail: 'https://i.postimg.cc/JskCLmH6/projekt1.gif',
+            original: 'https://i.postimg.cc/jjPM9Smc/projekt-dom-w-papawerach-2-84e2ed358276ae50d1096ff7d1816382-11817.gif',
+            thumbnail: 'https://i.postimg.cc/Pqs4mkJw/projekt-dom-w-papawerach-2-84e2ed358276ae50d1096ff7d1816382-11817.png',
         },
         {
-            original: 'https://i.postimg.cc/Y012FN9n/projekt2.gif',
-            thumbnail: 'https://i.postimg.cc/R3x5C8cM/projekt2.gif',
+            original: 'https://i.postimg.cc/764Kyyyk/projekt-dom-w-papawerach-2-b6bd60631370038d4f9ba2f8a1c70dc5-11815-1.gif',
+            thumbnail: 'https://i.postimg.cc/CKG476n6/projekt-dom-w-papawerach-2-b6bd60631370038d4f9ba2f8a1c70dc5-11815-1.png',
+        },
+        {
+            original: 'https://i.postimg.cc/05Hxk6dB/mokrd.jpg',
+            thumbnail: 'https://i.postimg.cc/sgb4sJvg/mokrd.jpg',
         },
     ];
 
@@ -89,9 +103,11 @@ const Details = (props) => {
     };
     return (
         <Layout>
-            <div className="container"><h1>Mokrzyska 1</h1></div>
+            <div className="container"><h1>Dom w Mokrzyskach</h1></div>
             <div className="project-details-container">
-                <ImageGallery items={images} />
+            <div style={{backgroundColor: '#f0f0f5', border: '1px solid grey', borderRadius: '10px'}}>
+                <ImageGallery items={images}/>
+                </div>
                 <div className="project-details-heading"><h2>Dom w Mokrzyskach</h2></div>
                 <div className="collapseheaderitem">
                     <div className="colitems">

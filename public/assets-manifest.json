@@ -42,9 +42,11 @@
   "component---src-pages-projectdetails-1-js-a7ec76ea9cf80f5932e9.js.map": "component---src-pages-projectdetails-1-js-a7ec76ea9cf80f5932e9.js.map",
   "component---src-pages-projectdetails-1-js.js": "component---src-pages-projectdetails-1-js-286151dadae096cf6560.js",
   "component---src-pages-projectdetails-2-js-57b508e8f9e8f5c4c4bc.js.map": "component---src-pages-projectdetails-2-js-57b508e8f9e8f5c4c4bc.js.map",
-  "component---src-pages-projectdetails-2-js.js": "component---src-pages-projectdetails-2-js-57b508e8f9e8f5c4c4bc.js",
+  "component---src-pages-projectdetails-2-js-7d664214cffdb9094fa5.js.map": "component---src-pages-projectdetails-2-js-7d664214cffdb9094fa5.js.map",
+  "component---src-pages-projectdetails-2-js.js": "component---src-pages-projectdetails-2-js-7d664214cffdb9094fa5.js",
+  "component---src-pages-projectdetails-3-js-04a578b06b8c630b65cb.js.map": "component---src-pages-projectdetails-3-js-04a578b06b8c630b65cb.js.map",
   "component---src-pages-projectdetails-3-js-0aa49292480f50fee73a.js.map": "component---src-pages-projectdetails-3-js-0aa49292480f50fee73a.js.map",
-  "component---src-pages-projectdetails-3-js.js": "component---src-pages-projectdetails-3-js-0aa49292480f50fee73a.js",
+  "component---src-pages-projectdetails-3-js.js": "component---src-pages-projectdetails-3-js-04a578b06b8c630b65cb.js",
   "component---src-pages-projects-page-js-5c65dacb8703784b2589.js.map": "component---src-pages-projects-page-js-5c65dacb8703784b2589.js.map",
   "component---src-pages-projects-page-js-92e2b1501737fdb43ad1.js.map": "component---src-pages-projects-page-js-92e2b1501737fdb43ad1.js.map",
   "component---src-pages-projects-page-js-fd969db4d3ccc91c0a75.js.map": "component---src-pages-projects-page-js-fd969db4d3ccc91c0a75.js.map",
@@ -96,9 +98,10 @@
   "static/rysunek6.jpg": "static/rysunek6-eea4da331a22572d5465a43b8452d6c6.jpg",
   "static/x.jpg": "static/x-470a630ddaf67549c7539cdde8616020.jpg",
   "styles.css": "styles.7ff7c99d66a3654efd4a.css",
+  "webpack-runtime-334d4430ed166b4bfa0f.js.map": "webpack-runtime-334d4430ed166b4bfa0f.js.map",
   "webpack-runtime-70c5ea262fb55df59b2e.js.map": "webpack-runtime-70c5ea262fb55df59b2e.js.map",
   "webpack-runtime-763c418a78b5f75dba7d.js.map": "webpack-runtime-763c418a78b5f75dba7d.js.map",
   "webpack-runtime-c73c7dd7097be6b4b3ec.js.map": "webpack-runtime-c73c7dd7097be6b4b3ec.js.map",
   "webpack-runtime-ff0493fe6c35b8df1efb.js.map": "webpack-runtime-ff0493fe6c35b8df1efb.js.map",
-  "webpack-runtime.js": "webpack-runtime-c73c7dd7097be6b4b3ec.js"
+  "webpack-runtime.js": "webpack-runtime-334d4430ed166b4bfa0f.js"
 }
